@@ -1,2 +1,2 @@
 # Horizonry
-CSS3-based masonry horizontal re-ordering
+jQuery Plugin for Modern Masonry Horizontal Ordering 
