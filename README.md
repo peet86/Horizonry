@@ -1,6 +1,8 @@
 # Horizonry
 jQuery Plugin for Modern (CSS3) Masonry Horizontal Ordering 
 
+Browser support: all modern browsers & IE10+
+
 ### Demo
 http://codepen.io/peet86/pen/QwmxEO/ (CodePen)
 
