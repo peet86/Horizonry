@@ -1,3 +1,10 @@
+/*
+* Horizonry v1.0
+* CSS3 Masonry Horizontal Ordering
+* http://vargapeter.com
+* MIT License
+* by Peter Varga (vargapeter.com)
+*/
 (function ($) {
     $.horizonry = function (el, options) {
         var base = this;
