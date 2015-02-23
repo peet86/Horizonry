@@ -1,10 +1,3 @@
-/*!
- * Horizonry v1.0
- * CSS3 Masonry Horizontal Ordering
- * http://vargapeter.com
- * MIT License
- * by Peter Varga (vargapeter.com)
- */
 (function ($) {
     $.horizonry = function (el, options) {
         var base = this;
@@ -54,8 +47,8 @@
         base.getCols = function ($this) {
             var containerwidth = base.$el.width(),
                 itemwidth = base.$children_first.width(),
-                pos = base.$children_first.offset(),
-                totalwidth = pos.left + itemwidth;
+                left = base.$children_first.position().left - base.$el.position().left,
+                totalwidth = left + itemwidth;
 
             var r = Math.round(containerwidth / totalwidth);
             return r;
