@@ -1,0 +1,28 @@
+{
+  "name": "horizonry",
+  "version": "1.0.0",
+  "homepage": "https://github.com/peet86/Horizonry",
+  "authors": [
+    "Peter Varga <info@vargapeter.com>"
+  ],
+  "description": "jQuery Plugin to horizontal ordering modern (CSS3) column-based masonry",
+  "main": "jquery.horizonry.min.js",
+  "keywords": [
+    "masonry",
+    "isotope",
+    "html5",
+    "css3",
+    "columns"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "~2.1.1"
+  }
+}
